@@ -1,3 +1,5 @@
+# Only work for list of int with unique value
+
 def pigeonhole_sort(int_array: list[int]) -> None:
 	min_val = min(int_array)
 	index_array = [None] * (max(int_array) - min_val + 1)
